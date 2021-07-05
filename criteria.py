@@ -3,7 +3,8 @@ import nltk
 from nltk.stem.wordnet import WordNetLemmatizer
 from pattern.en import conjugate, lemma, lexeme, PRESENT, SG, PL, PAST, PROGRESSIVE
 import random
-
+nltk.download('averaged_perceptron_tagger')
+nltk.download('universal_tagset')
 
 # Function 0: List of stop words
 def get_stopwords():

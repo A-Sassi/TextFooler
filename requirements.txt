@@ -29,11 +29,12 @@ s3transfer==0.3.3
 six==1.15.0
 soupsieve==2.0.1
 tensorboard
-tensorflow-gpu
-tensorflow-hub
+tensorflow-gpu==1.15
+tensorflow-hub==0.7.0
 termcolor==1.1.0
 torch
 tqdm==4.46.1
 urllib3==1.25.9
 Werkzeug==1.0.1
 zipp==3.1.0
+pattern
